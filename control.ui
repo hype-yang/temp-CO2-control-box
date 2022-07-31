@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>控制程序</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_7">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <family>Adobe 黑体 Std R</family>
+             <pointsize>20</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>当前温度</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_2">
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 明體 Std L</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <family>Adobe 黑体 Std R</family>
+             <pointsize>20</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>设置温度</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QPushButton" name="Button">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_2">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <family>Adobe 黑体 Std R</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>当前CO2浓度</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_3">
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <family>Adobe 黑体 Std R</family>
+             <pointsize>20</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>设置CO2浓度</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_4">
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QPushButton" name="Button_3">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_4">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Adobe 黑体 Std R</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
